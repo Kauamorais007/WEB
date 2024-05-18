@@ -1,4 +1,3 @@
-
 <html>
   <head>
     <title>{{ $title }}</title>
@@ -9,8 +8,7 @@
       <h3>Bem vindo ao meu site</h3>
       <hr>
     </nav>
-    {{ $title }}
-    {{ $img }}
+    {{ $slot }}
     <footer>
       <hr />
       © 2024 Kauã Morais
